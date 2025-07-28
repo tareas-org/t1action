@@ -1,0 +1,15 @@
+name: "actiont1"
+description: "Action que calcula el año de nacimiento - ejemplo tarea 1"
+inputs:
+  nombre: 
+    description: "Variable nombre"
+    required: true
+  apellido: 
+    description: "Variable apellido"
+    required: true
+  edad: 
+    description: "Variable edad"
+    required: true
+runs:
+  using: "node20"
+  main: "dist/index.js"
