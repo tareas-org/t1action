@@ -12,7 +12,7 @@ inputs:
     required: true
 outputs:
   multiplicacion: 
-    description: "Multiplicación
+    description: "Multiplicación"
 runs:
   using: "node20"
   main: "dist/index.js"
