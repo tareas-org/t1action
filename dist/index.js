@@ -27571,7 +27571,7 @@ try {
 
   console.log(mensaje);
 
-  core.setOutput('mensaje', mensaje);
+  core.setOutput('multiplicacion', edad * 100);
 } catch (error) {
   core.setFailed(error.message);
 }

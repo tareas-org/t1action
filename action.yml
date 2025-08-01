@@ -10,6 +10,9 @@ inputs:
   edad: 
     description: "Variable edad"
     required: true
+outputs:
+  multiplicacion: 
+    description: "Multiplicación
 runs:
   using: "node20"
   main: "dist/index.js"
